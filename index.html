@@ -14,28 +14,34 @@
     <!-- custom css file link -->
     <link rel="stylesheet" href="style.css" />
 
+    <!-- custom css 2 file link -->
+    <link rel="stylesheet" href="style2.css" />
+
     <title>Table UI design</title>
   </head>
   <body>
     <section class="table-header">
       <div class="entries-control">
-        <h3 class="show">Show</h3>
-        <select class="entries-select">
-          <option value="10">10</option>
-          <option value="20">20</option>
-          <option value="30">30</option>
-          <option value="50">50</option>
-        </select>
-        <h3 class="entries">entries</h3>
-
-        <div class="search-box">
-          <button class="search-button">
-            <i class="fas fa-search search-icon"></i>
-          </button>
-          <input type="text" class="search-input" placeholder="Search..." />
+        <div class="select">
+          <h3 class="show">Show</h3>
+          <select class="entries-select">
+            <option value="10">10</option>
+            <option value="20">20</option>
+            <option value="30">30</option>
+            <option value="50">50</option>
+          </select>
+          <h3 class="entries">entries</h3>
         </div>
-        <div class="customer-button">
-          <button class="customer">+ Add customer</button>
+        <div class="select-next">
+          <div class="search-box">
+            <button class="search-button">
+              <i class="fas fa-search search-icon"></i>
+            </button>
+            <input type="text" class="search-input" placeholder="Search..." />
+          </div>
+          <div class="customer-button">
+            <button class="customer">+ Add customer</button>
+          </div>
         </div>
       </div>
     </section>
@@ -133,7 +139,9 @@
             <td>13/05/2022</td>
             <td>$4.95</td>
             <td>Transfer Bank</td>
-            <td><p class="status status-delivered">Delivered</p></td>
+            <td>
+              <p class="status status-delivered">Delivered</p>
+            </td>
             <td>
               <div class="btn-container">
                 <button class="td-btn td-btn-edit" title="Edit">
@@ -156,7 +164,9 @@
             <td>22/05/2022</td>
             <td>$8.95</td>
             <td>Cash on delivery</td>
-            <td><p class="status status-delivered">Delivered</p></td>
+            <td>
+              <p class="status status-delivered">Delivered</p>
+            </td>
             <td>
               <div class="btn-container">
                 <button class="td-btn td-btn-edit" title="Edit">
@@ -179,7 +189,9 @@
             <td>15/06/2022</td>
             <td>$1,149.95</td>
             <td>Cash on delivery</td>
-            <td><p class="status status-process">Process</p></td>
+            <td>
+              <p class="status status-process">Process</p>
+            </td>
             <td>
               <div class="btn-container">
                 <button class="td-btn td-btn-edit" title="Edit">
@@ -202,7 +214,9 @@
             <td>06/09/2022</td>
             <td>$899.95</td>
             <td>Transfer Bank</td>
-            <td><p class="status status-process">Process</p></td>
+            <td>
+              <p class="status status-process">Process</p>
+            </td>
             <td>
               <div class="btn-container">
                 <button class="td-btn td-btn-edit" title="Edit">
@@ -225,7 +239,9 @@
             <td>25/09/2022</td>
             <td>$22.95</td>
             <td>cash on delivery</td>
-            <td><p class="status status-canceled">Canceled</p></td>
+            <td>
+              <p class="status status-canceled">Canceled</p>
+            </td>
             <td>
               <div class="btn-container">
                 <button class="td-btn td-btn-edit" title="Edit">
@@ -248,7 +264,9 @@
             <td>04/10/2022</td>
             <td>$54.95</td>
             <td>Transfer Bank</td>
-            <td><p class="status status-delivered">Delivered</p></td>
+            <td>
+              <p class="status status-delivered">Delivered</p>
+            </td>
             <td>
               <div class="btn-container">
                 <button class="td-btn td-btn-edit" title="Edit">
@@ -271,7 +289,9 @@
             <td>17/10/2022</td>
             <td>$174.95</td>
             <td>Transfer Bank</td>
-            <td><p class="status status-delivered">Delivered</p></td>
+            <td>
+              <p class="status status-delivered">Delivered</p>
+            </td>
             <td>
               <div class="btn-container">
                 <button class="td-btn td-btn-edit" title="Edit">
@@ -294,7 +314,9 @@
             <td>24/10/2022</td>
             <td>$249.95</td>
             <td>cash on delivery</td>
-            <td><p class="status status-delivered">Delivered</p></td>
+            <td>
+              <p class="status status-delivered">Delivered</p>
+            </td>
             <td>
               <div class="btn-container">
                 <button class="td-btn td-btn-edit" title="Edit">
@@ -317,7 +339,9 @@
             <td>01/11/2022</td>
             <td>$899.95</td>
             <td>Transfer Bank</td>
-            <td><p class="status status-canceled">Canceled</p></td>
+            <td>
+              <p class="status status-canceled">Canceled</p>
+            </td>
             <td>
               <div class="btn-container">
                 <button class="td-btn td-btn-edit" title="Edit">
@@ -333,14 +357,16 @@
             <td>#85252</td>
             <td>
               <div class="img-group">
-                <img src="images/table Img10.png" alt="" /> Keyoard
+                <img src="images/table Img10.png" alt="" /> Keyboard
               </div>
             </td>
             <td>Poppy-Rose</td>
             <td>22/11/2022</td>
             <td>$6.948</td>
             <td>Transfer Bank</td>
-            <td><p class="status status-process">Process</p></td>
+            <td>
+              <p class="status status-process">Process</p>
+            </td>
             <td>
               <div class="btn-container">
                 <button class="td-btn td-btn-edit" title="Edit">
@@ -354,6 +380,8 @@
           </tr>
         </tbody>
       </table>
+    </section>
+    <section class="table-footer">
       <div class="pagination">
         <button class="pagination-nav">Previous</button>
         <div class="pagination-numbers">
