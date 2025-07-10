@@ -7,11 +7,16 @@
     display: block;
     width: 100vw; 
     margin-left: -15px;
-    padding: 0 15px;
+    padding: 0;
   }
 
   .table-body table {
     min-width: 1250px;
   }
+  
+  th, td {
+    width: auto !important;
+  }
+
 }
 

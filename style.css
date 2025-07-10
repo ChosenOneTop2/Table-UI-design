@@ -180,32 +180,39 @@ tr{
 th{
   font-size: 14px;
   font-weight: 700%;
-  padding: 1rem 1rem;
   position: relative;
   width: 10%;
+  text-align: left;
+  padding: 12px 15px;
 }
 .th-with-icon{
   font-size: 14px;
   font-weight: 700%;
-  display:flex;
-  gap: 20px;
+  display: flex;
+  width: 10%;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   position: relative; 
 }
+
 .svg-icon{
   width: 17px;
   height: 16px;
   flex-shrink: 0;
   cursor: pointer;
+  margin-left: 35px;
+  margin: 0 35px;
 }
+
 td{
   font-size: 12px;
   font-weight: 500%;
-  padding: 1rem 2rem;
+  padding: 12px 15px; 
   position: relative;
-  align-items: center;
+  text-align: left;
+  vertical-align: middle;
 }
+
 .img-group{
   display: flex;
   align-items: center;
@@ -217,6 +224,20 @@ td{
 }
 td img{
   vertical-align: middle;
+}
+
+th:nth-child(1) {
+  text-align: center !important;
+}
+td:nth-child(1) {
+  text-align: center;
+}
+
+th:last-child {
+  text-align: center !important;
+}
+td:last-child {
+  text-align: center;
 }
 
 .status{
@@ -294,6 +315,7 @@ tbody tr:nth-child(odd){
   justify-content: center;
   width: 100%;
   margin: 0 auto;
+  gap: 0.5rem;
 }
 .pagination-nav {
   font-size: 12px;
